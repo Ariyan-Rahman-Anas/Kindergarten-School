@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#FFFFE9]">
+    <!-- header section starts from here -->
+    <header>
+        <nav class="py-3">
+            <ul class="flex items-center justify-center gap-8">
+                <li class="tex-white relative group">
+                <a href="/index.html" class="focus:font-semibold cursor-pointer group-hover:text-yellow-500 duration-500 ">
+                  Home
+                  <span class="absolute left-0 right-0 bottom-0 top-[1.35rem] h-[.14rem] w-full rounded-md bg-yellow-500 transform scale-x-0 origin-bottom transition-transform group-hover:scale-x-100 duration-500 "></span>
+                </a>
+              </li>
+                <li class="tex-white relative group">
+                <a href="/index.html" class=" focus:font-semibold cursor-pointer group-hover:text-yellow-500 duration-500">
+                  About us
+                  <span class="absolute left-0 right-0 bottom-0 top-[1.35rem] h-[.14rem] w-full rounded-md bg-yellow-500 transform scale-x-0 origin-bottom transition-transform group-hover:scale-x-100 duration-500  "></span>
+                </a>
+              </li>
+                <li class="tex-white relative group">
+                <a href="#" class="focus:font-semibold cursor-pointer group-hover:text-yellow-500  duration-500 ">
+                  Contact
+                  <span class="absolute left-0 right-0 bottom-0 top-[1.35rem] h-[.14rem] w-full rounded-md bg-yellow-500 transform scale-x-0 origin-bottom transition-transform group-hover:scale-x-100 duration-500 "></span>
+                </a>
+              </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section ends here -->
+    
+    <!-- contact from section starts from here -->
+    <section class="text-center mt-10 px-2 pb-10 ">
+        <h1  class="text-6xl font-serif font-semibold">Contact Us</h1>
+        <p class="w-full md:w-2/4 mx-auto mt-4 mb-8 font-semibold " >Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!</p>
+        <div class="w-full md:w-[75%] mx-auto flex flex-col md:flex-row items-start justify-between gap-10 bg-[#201F1F] rounded-md">
+
+            <div class="form text-white p-5 flex-1 w-full ">
+                <h2 class="font-serif text-3xl text-left pt-12 mb-4 ">Get in touch with us</h2>
+                <form class="flex flex-col">
+                  <div class="input-group-for-name flex flex-col items-start ">
+                    <label for="username" class="text-gray-300 mb-[.09rem] ">Name</label>
+                    <input type="text" required placeholder="Ariyan Rahman Anas"  id="username" class="bg-gray-700 w-full focus:outline-none p-2 rounded-md border-y-2 border-transparent focus:border-b-white ">
+                  </div>
+                  <div class="input-group-for-email my-4 flex flex-col items-start ">
+                    <label for="email" class="text-gray-300 mb-[.09rem] ">Email</label>
+                    <input type="email" required placeholder="Example@example.com" id="email" class="bg-gray-700 w-full focus:outline-none p-2 rounded-md border-y-2 border-transparent focus:border-b-white " >
+                  </div>
+                  <div class="input-group flex flex-col items-start ">
+                    <label for="message" class="text-gray-300 mb-[.09rem] ">Message</label>
+                    <textarea name="message" id="" cols="30" rows="3" placeholder="Type your query here..." required class="bg-gray-700 w-full focus:outline-none p-2 rounded-md border-y-4 border-transparent focus:border-b-white "></textarea>
+                  </div>
+                  <input type="submit" value="Send my message" class="mt-5 text-left w-fit text-black bg-[#F3F25B] px-5 py-2 rounded-md hover:bg-black hover:text-[#f3f25b] border border-transparent hover:border-[#f3f25b] duration-500 ">
+                </form>
+            </div>
+            <div class="map flex-1 w-full">
+              <div class="h-[31rem] md:h-[34rem] w-full ">
+                <img src="/images/map.png" alt="" class="w-full h-full rounded-md " >
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact from section ends here -->
+</body>
+</html>
